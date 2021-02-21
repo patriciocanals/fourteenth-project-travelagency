@@ -1,0 +1,28 @@
+extends layouts/index
+
+block slider 
+    .slider
+        h1 Rio De Janeiro
+        em adventure
+block content
+    main.container.mt-5 
+        h2.text-center.mb-5 About Us
+        .row.mb-5
+            .col-md-6
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis pharetra eros. Proin non urna tincidunt, vulputate leo vel, tempus nulla. Sed eget enim ornare, vulputate arcu eu, maximus dui. Aenean dapibus lorem quis fermentum molestie. Nullam sed nibh posuere, euismod ante in, aliquam elit. Duis finibus egestas justo, vel accumsan metus viverra quis. Integer magna libero, aliquam quis accumsan quis, egestas vel tellus. Nulla vulputate sem eget egestas elementum. Praesent nulla leo, sagittis sed dolor commodo, pharetra ultricies lorem. Proin iaculis mi dolor, et bibendum erat mattis non.
+                p Vestibulum rutrum viverra enim. Nulla facilisi. Curabitur pulvinar neque aliquam, blandit turpis ut, tincidunt ex. Curabitur gravida at neque at mollis. Vivamus laoreet ex ac urna viverra elementum. Sed cursus, libero eu rhoncus rhoncus, velit sem lacinia augue, at blandit quam arcu vitae dui. Duis rhoncus justo et blandit venenatis. In gravida mauris nibh, sit amet dictum arcu pellentesque sit amet. Nam quis ligula odio. Phasellus quis molestie justo. Curabitur maximus lectus a luctus posuere. Nullam convallis, urna vehicula tempus pulvinar, massa tortor euismod magna, ullamcorper rhoncus libero velit in nibh.
+            .col-md-6
+                img(src="/img/home_aboutus.jpg", alt="image about us", class="img-fluid")
+        include ./layouts/trips_block
+    .discount
+        .container
+            .row
+                .col-md-6
+                    .content
+                        h3 5% OFF
+                        p.title Canada
+                        p.date March 14 - September 14
+                        p.fare $700 USD
+    .container 
+        h2.mt-5.text-center Opinions
+        include ./layouts/opinions_block
