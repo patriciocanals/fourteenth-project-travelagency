@@ -4,8 +4,8 @@
   "description": "First Node Project",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server",
-    "start": "node server"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "type": "module",
   "author": "Patricio Pellegrini",
