@@ -1,16 +1,13 @@
 {
   "name": "agenciaviajesnode",
   "version": "1.0.0",
-  "engines": {
-    "node": "19.9.0"
-  }
   "description": "Primer Proyecto con Node.js",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
   },
   "type": "module",
-  "author": "Patricio H Pellegrini",
+  "author": "Patricio H. Pellegrini",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
