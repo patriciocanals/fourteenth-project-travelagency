@@ -10,7 +10,7 @@
     "dev": "nodemon index.js"
   },
   "type": "module",
-  "author": "Juan De la torre",
+  "author": "Patricio H Pellegrini",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
