@@ -4,8 +4,7 @@
   "description": "Primer Proyecto con Node.js",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js",
+    "start": "node app.js"
   },
   "type": "module",
   "author": "Patricio H. Pellegrini",
