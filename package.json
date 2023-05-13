@@ -1,6 +1,9 @@
 {
   "name": "agenciaviajesnode",
   "version": "1.0.0",
+  "engines": {
+    "node": "19.9.0"
+  }
   "description": "Primer Proyecto con Node.js",
   "main": "index.js",
   "scripts": {
